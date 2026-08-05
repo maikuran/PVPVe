@@ -1,5 +1,5 @@
 ## Bedrock Add-On Sample Files
-https://konnitiwa768.github.io/PVPVe/skin.html
+https://maikuran.github.io/PVPVe/skin.html
 https://konnitiwa768.github.io/PVPVe/ai.html
 https://chatgpt.com
 https://google.com
@@ -7,4 +7,4 @@ The following sample files provide the latest resource and behavior examples for
 
 You can see versions of this documentation corresponding to the latest previews in the [preview branch](https://github.com/Mojang/bedrock-samples/tree/preview).
 
-A version of the main documentation can also be found at [https://mojang.github.io/bedrock-samples/](https://mojang.github.io/bedrock-samples/).
+A version of the main documentation can also be found at [https://mojang.github.io/bedrock-samples/](https://mojanmaikuqag.github.io/bedrock-samples/
