@@ -10,7 +10,8 @@ urls = [
     "https://s.namemc.com/i/4c92e3982fb83efa.png",
     "https://s.namemc.com/i/a4290fa0b3a07c61.png",
     "https://s.namemc.com/i/c37cd810d785492f.png",
-    "https://s.namemc.com/i/1026333ef7ef6c7a.png"
+    "https://s.namemc.com/i/1026333ef7ef6c7a.png",
+    "https://s.namemc.com/i/83ff3e552900a76b.png"
 ]
 names = [
     "Re_Maturi.png",
@@ -20,7 +21,8 @@ names = [
     "Re.png",
     "Mar_Maturi.png",
     "kena.png",
-    "Kenaso.png"
+    "Kenaso.png",
+    "m.png"
 ]
 
 download_dir = "A" # ダウンロード先のディレクトリ
@@ -34,8 +36,8 @@ headers = {
 }
 
 for url, name in zip(urls, names):
-    file_path = os.path.join(download_dir, name)
-    try:
+m    file_path = os.path.join(download_dir, name)
+m    try:
         response = requests.get(url, stream=True, headers=headers) # ヘッダーを追加
         response.raise_for_status() # HTTPエラーが発生した場合に例外を発生させる
         with open(file_path, 'wb') as f:
