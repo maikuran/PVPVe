@@ -36,8 +36,8 @@ headers = {
 }
 
 for url, name in zip(urls, names):
-m    file_path = os.path.join(download_dir, name)
-m    try:
+    file_path = os.path.join(download_dir, name)
+    try:
         response = requests.get(url, stream=True, headers=headers) # ヘッダーを追加
         response.raise_for_status() # HTTPエラーが発生した場合に例外を発生させる
         with open(file_path, 'wb') as f:
